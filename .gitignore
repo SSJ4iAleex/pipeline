@@ -1,0 +1,5 @@
+build/**/*.*
+!build/atoum/**/*.php
+!*.conf
+!Dockerfile
+!docker-compose.yml
