@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'Demo PHP Website',
         'nav_menu' => [
             '' => 'Home',
             'about-us' => 'About Us',
@@ -18,7 +18,7 @@ function config($key = '')
         'template_path' => 'template',
         'content_path' => 'content',
         'pretty_uri' => true,
-        'version' => 'v2.0',
+        'version' => 'v1.0',
     ];
 
     return isset($config[$key]) ? $config[$key] : null;
